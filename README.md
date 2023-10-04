@@ -1,6 +1,6 @@
 # Key Concepts
 
-This project, titled 'Key Concepts', is a visual and interactive way to understand complex coding concepts. Dive into it with\*\*.
+This project, titled 'Key Concepts', is a visual react demonstration of key ReactJS features.
 
 ![Key Concepts Screenshot](./src/assets/images/README/screenshot.png)
 
