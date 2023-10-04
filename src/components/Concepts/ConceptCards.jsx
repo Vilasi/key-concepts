@@ -1,6 +1,6 @@
-import Concept from './Concept';
+import Concept from './ConceptListItem';
 
-export default function ConceptList(props) {
+export default function ConceptCards(props) {
   const data = props.data;
 
   return data.map((concept, index) => {

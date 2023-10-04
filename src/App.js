@@ -4,8 +4,11 @@ import stateImage from './assets/images/state.png';
 import eventsImage from './assets/images/events.png';
 
 // import Concept from './components/Concept';
-import ConceptList from './components/Concepts/ConceptList';
+import ConceptCards from './components/Concepts/ConceptCards';
 import PageHeader from './components/UI/Header';
+import CardContainer from './components/UI/CardContainer';
+
+// import './'
 
 const concepts = [
   {
@@ -36,9 +39,9 @@ function App() {
         <h1>Key React Concepts</h1>
         <p>Selected key React concepts you should know about</p>
       </PageHeader>
-      <ul id="concepts">
-        <ConceptList data={concepts} />
-      </ul>
+      <CardContainer>
+        <ConceptCards data={concepts} />
+      </CardContainer>
     </div>
   );
 }

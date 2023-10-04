@@ -1,6 +1,6 @@
-import './Concept.css';
+import './ConceptListItem.css';
 
-export default function Concept(props) {
+export default function ConceptListItem(props) {
   const { title, image, description } = props;
   return (
     <li className="concept">
