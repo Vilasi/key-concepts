@@ -1,11 +1,10 @@
-import keyConceptsImage from './assets/images/key-concepts.png';
 import componentsImage from './assets/images/components.png';
 import stateImage from './assets/images/state.png';
 import eventsImage from './assets/images/events.png';
 
 // import Concept from './components/Concept';
 import ConceptCards from './components/Concepts/ConceptCards';
-import PageHeader from './components/UI/Header';
+import Header from './components/Concepts/Header';
 import CardContainer from './components/UI/CardContainer';
 
 // import './'
@@ -34,11 +33,7 @@ const concepts = [
 function App() {
   return (
     <div>
-      <PageHeader>
-        <img src={keyConceptsImage} alt="Medal badge with a star" />
-        <h1>Key React Concepts</h1>
-        <p>Selected key React concepts you should know about</p>
-      </PageHeader>
+      <Header />
       <CardContainer>
         <ConceptCards data={concepts} />
       </CardContainer>
