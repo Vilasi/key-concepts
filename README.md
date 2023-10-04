@@ -2,7 +2,7 @@
 
 This project, titled 'Key Concepts', is a visual and interactive way to understand complex coding concepts. Dive into it with\*\*.
 
-![Key Concepts Screenshot](https://imgur.com/jmFfFby)
+![Key Concepts Screenshot](./src/assets/images/README/screenshot.png)
 
 ## Getting Started
 
